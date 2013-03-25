@@ -1,0 +1,76 @@
+.wrapper {
+    width: 500px;
+    margin: 0 auto;
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+	color: #E0FFFF;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-image: linear-gradient(bottom, rgb(255,255,255) 50%, #548B8B 100%);
+	background-image: -o-linear-gradient(bottom, rgb(255,255,255) 50%, #548B8B 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 50%, #548B8B 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 50%, #548B8B) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 50%, #548B8B 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.5, rgb(255,255,255)),
+		color-stop(1, #548B8B)
+);
+}
+
+a {
+	color: #548B8B;
+	font-weight:bold;
+	text-decoration: none;
+	background-color: rgb(209,209,209);
+	border-style:solid;
+	border-width:5px;
+	border-color: rgb(209,209,209);
+	border-radius:5px;
+	padding: 1px;
+}
+
+div.sign-in {
+	margin: 10px 5px;
+	padding: 5px 1px;
+	float: left;
+}
+
+div.sign-up {
+	margin: 10px 5px;
+	padding: 5px 1px;
+	float: left;
+}
+
+div.login {
+	clear: both;
+}
+
+div.create_account {
+	clear: both;
+}
+
+/*
+h1 {
+	font-size: 1.750em;
+	font-weight: 100;
+	letter-spacing: -1.5px;
+}
+
+h2 {
+	font-weight: 100;
+	font-size: 1.500em;
+	color: #b4c34f;
+}
+
+h3 {
+	font-weight: 100;
+	font-size: 1.125em;
+	color: #ed6c85;
+}
+*/
